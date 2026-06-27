@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 220" width="320" height="220">
+  <defs>
+    <style>
+      .oval-bg { fill: #0D0D0D; }
+      .oval-border { fill: none; stroke: #C9A84C; stroke-width: 4; }
+      .oval-border-inner { fill: none; stroke: #C9A84C; stroke-width: 1.5; stroke-dasharray: none; }
+      .wunsch-text { font-family: 'Arial Black', 'Impact', sans-serif; font-weight: 900; font-size: 58px; fill: #F2E0A0; stroke: #0D0D0D; stroke-width: 3; paint-order: stroke fill; letter-spacing: 2px; }
+      .banner-fill { fill: #C9A84C; }
+      .banner-shadow { fill: #8B7230; }
+      .script-text { font-family: 'Georgia', 'Times New Roman', serif; font-style: italic; font-size: 26px; font-weight: bold; fill: #0D0D0D; letter-spacing: 0.5px; }
+      .sub-text { font-family: 'Arial', sans-serif; font-size: 13px; font-weight: 700; fill: #C9A84C; letter-spacing: 3px; }
+      .ornament { fill: #C9A84C; }
+    </style>
+  </defs>
+
+  <!-- Outer oval -->
+  <ellipse cx="160" cy="110" rx="152" ry="102" class="oval-bg"/>
+  <!-- Gold border outer -->
+  <ellipse cx="160" cy="110" rx="152" ry="102" class="oval-border"/>
+  <!-- Gold border inner -->
+  <ellipse cx="160" cy="110" rx="143" ry="93" class="oval-border-inner"/>
+
+  <!-- WUNSCH main text -->
+  <text x="160" y="90" text-anchor="middle" class="wunsch-text">WUNSCH</text>
+
+  <!-- Banner ribbon body -->
+  <polygon points="18,118 302,118 302,148 18,148" class="banner-fill"/>
+  <!-- Banner left point -->
+  <polygon points="18,118 5,133 18,148" class="banner-fill"/>
+  <!-- Banner right point -->
+  <polygon points="302,118 315,133 302,148" class="banner-fill"/>
+  <!-- Banner shadow bottom -->
+  <polygon points="18,148 302,148 302,152 18,152" class="banner-shadow" opacity="0.4"/>
+  <!-- Banner left fold shadow -->
+  <polygon points="18,148 5,133 10,148" class="banner-shadow" opacity="0.4"/>
+  <!-- Banner right fold shadow -->
+  <polygon points="302,148 315,133 310,148" class="banner-shadow" opacity="0.4"/>
+
+  <!-- Construction Inc. script text -->
+  <text x="160" y="141" text-anchor="middle" class="script-text">Construction Inc.</text>
+
+  <!-- Small ornament left -->
+  <text x="55" y="175" text-anchor="middle" class="ornament" font-size="14">✦</text>
+  <!-- GREENE, IOWA text -->
+  <text x="160" y="176" text-anchor="middle" class="sub-text">GREENE, IOWA</text>
+  <!-- Small ornament right -->
+  <text x="265" y="175" text-anchor="middle" class="ornament" font-size="14">✦</text>
+</svg>

@@ -2,15 +2,15 @@
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
 :root {
-  --yellow:   #F5A623;
-  --yellow-d: #D4891A;
-  --dark:     #1A1A1A;
-  --dark-2:   #2C2C2C;
+  --yellow:   #C9A84C;
+  --yellow-d: #A8892E;
+  --dark:     #0D0D0D;
+  --dark-2:   #1C1C1C;
   --slate:    #4A5568;
   --slate-l:  #718096;
   --bg:       #FFFFFF;
-  --bg-alt:   #F7F7F5;
-  --border:   #E2E8F0;
+  --bg-alt:   #F8F6F1;
+  --border:   #E2DDD0;
   --radius:   10px;
   --shadow:   0 4px 24px rgba(0,0,0,.08);
   --shadow-lg:0 12px 40px rgba(0,0,0,.14);
@@ -124,6 +124,11 @@ p { color: var(--slate); }
   align-items: center;
   gap: 10px;
 }
+.logo-svg {
+  height: 52px;
+  width: auto;
+}
+
 .logo-mark {
   display: inline-flex;
   align-items: center;
@@ -397,7 +402,7 @@ p { color: var(--slate); }
 .service-icon {
   width: 64px;
   height: 64px;
-  background: linear-gradient(135deg, #FFF3D6, #FFE8A3);
+  background: linear-gradient(135deg, #F5EDD0, #E8D48A);
   border-radius: 12px;
   display: flex;
   align-items: center;
